@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 106%;
+    line-height: 76px;
     text-align: center;
     display: flex;
     position: relative;
@@ -15,21 +15,15 @@
   
   @media screen and (max-width: 1024px) {
     .cover__title {
-      font-size: 12vw;
+      font-size: 72px;
     }
   }
   
   @media screen and (max-width: 480px) {
     .cover__title {
-      max-width: 288px;
-      font-size: 32px;
-      line-height: 109%;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .cover__title {
       margin-top: 33px;
       margin-bottom: 16px;
+      font-size: 32px;
+      line-height: 35px;
     }
   }
